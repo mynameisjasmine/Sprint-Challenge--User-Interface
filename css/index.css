@@ -71,6 +71,27 @@ p {
     margin: 0 auto;
 }
 
+.static-navbar {
+    top: 0;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    
+
+}
+
+.nav-items {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    position: relative
+
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
