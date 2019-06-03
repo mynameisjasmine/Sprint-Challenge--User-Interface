@@ -82,7 +82,8 @@ p {
 
 .nav-items {
     width: 100%;
-    margin: 20px;
+    margin: 40px;
+    margin-bottom: -20px;
     position: relative;
     left: -70px;
     display: flex;
@@ -103,15 +104,10 @@ p {
     
 }
 
- /*.header-logo {
-   position: relative;
-   left: 250px;
-   width: 80%; */
-    
-}
+ 
 
 .jumbo-logo {
-    margin: 20px 0 60px;
+    margin: 20px 0 5px;
 }
 
 
@@ -220,11 +216,10 @@ p {
 .about-blurb {
     
     width: 100%;
-    padding: 0 10px 20px;
+    padding: 0 10px 50px;
+    
     
 
-    
-    
 }
 
 .about-blurb h4 {
@@ -232,7 +227,7 @@ p {
     position: relative;
     left: -10px;
 
-} */
+} 
 
 footer {
     width: 100%;
@@ -248,7 +243,10 @@ footer {
 
 .divider {
     border-bottom: 1px dashed black;
-    width: 1500px;
+    width: 820px;
+    margin: 20px;
+    position: relative;
+    left: -40px;
 }
 
 
