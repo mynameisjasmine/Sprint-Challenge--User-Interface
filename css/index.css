@@ -104,6 +104,12 @@ p {
    width: 80%;
     
 }
+
+.jumbo-logo {
+    margin: 20px 0 60px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,12 +149,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: rgb(230, 202, 49);
+}
+
+.box3 {
+    background: lightseagreen;
+}
+
+.box4 {
+    background: salmon;
+}
+
+
+.box5 {
+    background: red;
+}
+
+.box6 {
+    background: green;
+}
+
+.box7 {
+    background: purple;
+}
+
+.box8 {
+    background: magenta;
+}
+
+.box9 {
+    background: rgb(36, 2, 36)
+}
+
+.box10 {
+    background: rgb(58, 112, 212)
 }
 
 .bottom-content {
@@ -167,30 +214,51 @@ p {
 
 .about-blurb {
     
-    width: 1300px;
-    position: relative;
-    left: -270px;
+    width: 90%;
+    padding: 0 20px 20px;
     
     
 }
-.about-blurb h4 {
+
+/* .about-blurb h4 {
     margin: 10px;
-}
+
+} */
+
 footer {
     width: 100%;
     background: black;
 }
 
-.about-blurb-p  {
+/* .about-blurb-p  {
  margin-bottom: 20px;
  position: relative;
  left: 10px;
  
-}
+} */
 
 .divider {
     border-bottom: 1px dashed black;
     width: 1500px;
+}
+
+
+
+.about-middle-content {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*margin: 30px;*/
+    
+}
+
+.middle-boxes {
+    border: 1px solid green;
+    padding: 15px;
+    width: 47%;
+    margin: 10px;
+    border-bottom: 1px dashed black;
 }
 footer nav {
     width: 60%;
