@@ -98,10 +98,10 @@ p {
     
 }
 
-.header-logo {
+ /*.header-logo {
    position: relative;
    left: 250px;
-   width: 80%;
+   width: 80%; */
     
 }
 
@@ -214,14 +214,18 @@ p {
 
 .about-blurb {
     
-    width: 90%;
-    padding: 0 20px 20px;
+    width: 100%;
+    padding: 0 10px 20px;
+    
+
     
     
 }
 
-/* .about-blurb h4 {
+.about-blurb h4 {
     margin: 10px;
+    position: relative;
+    left: -10px;
 
 } */
 
