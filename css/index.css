@@ -71,18 +71,64 @@ p {
     margin: 0 auto;
 }
 
+.static-navbar {
+    top: 0;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    
+
+}
+
+.nav-items {
+    width: 100%;
+    margin: 40px;
+    margin-bottom: -20px;
+    position: relative;
+    left: -70px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    position: relative;
+    top: -20px;
+    left: 30px; 
+
+}
+
+.nav-link {
+    text-decoration: none;
+    
+}
+
+ 
+
+.jumbo-logo {
+    margin: 20px 0 5px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: 100%;
 }
+
+
 
 .top-content .text-container {
     width: 48%;
+    margin-top: 30px;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    position: relative;
+    
 }
 
 .middle-content {
@@ -104,12 +150,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: rgb(230, 202, 49);
+}
+
+.box3 {
+    background: lightseagreen;
+}
+
+.box4 {
+    background: salmon;
+}
+
+
+.box5 {
+    background: red;
+}
+
+.box6 {
+    background: green;
+}
+
+.box7 {
+    background: purple;
+}
+
+.box8 {
+    background: magenta;
+}
+
+.box9 {
+    background: rgb(36, 2, 36)
+}
+
+.box10 {
+    background: rgb(58, 112, 212)
 }
 
 .bottom-content {
@@ -126,10 +213,98 @@ p {
     padding-right: 0;
 }
 
+
+
+.about-blurb {
+    
+    width: 100%;
+    padding: 0 10px 50px;
+    
+}
+
+
+
+.about-blurb h4 {
+    margin: 10px;
+    position: relative;
+    left: -10px;
+
+}
+
+
+
+.divider {
+    border-bottom: 1px dashed black;
+    width: 810px;
+    margin: 20px;
+    margin-bottom: -40px;
+    position: relative;
+    left: -30px;
+}
+
+
+
+.about-middle-content {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+.middle-boxes {
+    
+    padding: 15px;
+    width: 47%;
+    margin: 10px;
+    border-bottom: 1px dashed black;
+}
+
+
+
+.about-middle-content h2 {
+  
+  margin: 10px 0px 0px;
+  margin-bottom: 20px;
+}
+
+
+
+.about-middle-content p {
+  margin-bottom: 20px;
+}
+
+
+
+
+.about-buttons {
+ font-size: 15px;
+ padding: 5px 20px;
+ 
+}
+
+
+.work-together {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    left: 15px;
+
+}
+
+
+.work-together p {
+    margin-top: 10px;
+}
+
 footer {
     width: 100%;
     background: black;
 }
+
+
+
 
 footer nav {
     width: 60%;
@@ -139,6 +314,9 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
+
+
+
 
 footer nav a {
     color: white;
