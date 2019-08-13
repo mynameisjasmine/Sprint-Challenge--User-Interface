@@ -1,4 +1,4 @@
-# Sprint Challenge: User Interface and Git - Multi-Page Website
+# Sprint Challenge: User Interface and Git - Multi-Page Website.
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
 
@@ -35,7 +35,7 @@ Edit this document to include your answers after each question. Make sure to lea
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
 
-I would say, semantics html is html markup which clearly describes the underlying meaning of the content.
+ I would say, semantics html is html markup which clearly describes the underlying meaning of the content.
 
 
 
@@ -62,7 +62,7 @@ It works on the current line of the cross-axis.
 5. Explain why git is valuable to a team of developers.
 
 
-It allows developers to track and save changes made to theor code over time. This allows developers to re-vist saved at various stages of editing.
+It allows developers to track and save changes made to theor code over time. This allows developers to re-vist saved work at various stages of editing.
 
 
 
@@ -116,7 +116,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] Copy and paste your home page navigation and header into the about page
 * [ ] Update the header image with the about page image
 * [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [ ] Build the rest of the about page layout to match the design.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
